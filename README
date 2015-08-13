@@ -1,0 +1,40 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5230
+
+vim es6
+
+> Write JavaScript ES6 easily with vim.
+
+Screenshot: https://raw.githubusercontent.com/isRuslan/vim-es6/master/sample.gif
+
+Install:
+
+> You need SnipMate installed: https://github.com/garbas/vim-snipmate.
+
+    To install using Vundle https://github.com/gmarik/vundle:
+
+	" add this line to your .vimrc file
+	Plugin 'isRuslan/vim-es6'
+
+    To install using pathogen.vim:
+
+	cd ~/.vim/bundle
+	git clone https://github.com/isRuslan/vim-es6.git
+
+    To manual install download  zip file https://github.com/isRuslan/vim-es6/releases:
+
+	cd ~/.vim
+	unzip vim-es6.zip
+
+
+    To checkout the source from repository:
+
+	cd ~/.vim/bundle
+	git clone https://github.com/isRuslan/vim-es6.git
+
+Snippets list:
+
+| gfn→     | `function* name (arg) { yield arg; }` |
+| =>→      | `(arg) => { ... },`                               |
+| class→  | `class name { constructor () { ...} }` |
+| forof→   | `for (let value of arr) { ... }`              |
+| im→      | `import lib from 'Library'`                 |
